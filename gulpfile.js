@@ -9,13 +9,15 @@ const browserSync = require('browser-sync').create();
 
 // css ფაილების ჩართვის თანმიმდევრობა
 const cssFiles = [
-   './src/css/main.css',
+  './src/css/fonts.css', 
+	'./src/css/main.css',
    './src/css/media.css'
 ]
 //js ფაილების ჩართვის თანმიმდევრობა
 const jsFiles = [
    './src/js/lib.js',
    './src/js/main.js'
+	 
 ]
 
 // CSS სტილების ჩართვის ამოცანა
